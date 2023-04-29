@@ -39,5 +39,4 @@ cd target
 java -jar interview-app-1.0.jar
 ```
 
-There is another way to run it without compiling it, but I don't know how to do it since I usually use the 
-button on my IDE to run it that way.
+There might be alternate ways to run the code, but I usually use the button on my IDE to compile and run it.
