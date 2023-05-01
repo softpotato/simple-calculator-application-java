@@ -6,8 +6,8 @@ public class AdvancedNumber extends Element {
 
     public AdvancedNumber(String input) {
         super(false);
-        integerVal = Integer.parseInt(input);
         doubleVal = Double.parseDouble(input);
+        integerVal = (int) doubleVal;
     }
 
     public AdvancedNumber(int integerVal, double doubleVal) {
